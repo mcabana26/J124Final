@@ -9,6 +9,13 @@
 
 **Question 1: Which age group has the highest rate of diabetes?**
 
+1. Create a pivot table.
+2. Drag "Diabetes" and "Age" under "Rows" in the Pivot table editor.
+3. Drag "Diabetes" under "Values" in the Pivot Table editor, and click the dropdown menu under "Summarize by" and click "COUNT."
+4. Minimize rows "0" and "1" under the "Diabetes" column.
+5. In the Pivot table editor, go to the rows section, under "Age," click the dropdown menu under "Sort by" and click "COUNT," then click the dropdwon menu under "Order" and click "descending."
+**Optional: Show totals can be unselected since they are not needed.**
+
 ![Question 1](https://github.com/mcabana26/J124/blob/main/Screen%20Shot%202022-08-06%20at%206.25.34%20PM.png)
 
 **Question 2: Which BMI group has the highest rate of diabetes?**
