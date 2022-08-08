@@ -3,7 +3,7 @@
 
 ## Story Summary and Sourcing
 
-My data analysis identified that
+In the analysis of the ["Diabetes Health Indicators Dataset"](https://github.com/mcabana26/J124Final/blob/main/Diabetes%20Health%20Indicators%20Dataset%20-%20Diabetes%20Health%20Indicators.csv), out of the individuals reported to have diabetes, it was more prevalent in women compared to men, more people with a body mass index (BMI) of 30 or higher had it compared to other categories, more people with a reported highest education level of grade 12 or a GED had it compared to other education levels, and more people with an income of level of $75,000 or more had it compared to other income levels.  This potentially identifies being a woman, having a low education level, and having a high BMI as indicators for diabetes.  Why do more women have diabetes?  Is low education level intersectional with other socioeconomic and social factors, such as race and zip code, that may also be predictors?  Does having a high a BMI affect the worsening of the illness?  If so, how has diabetes treatment been adjusted to address this issue in all groups of patients?  With this findings paired with these additional questions, I will explore other sources to report on both why and how different groups may be more at risk of diabetes and possible methods to enhancing prevention and treatment with the knowledge of these possible predictors.
 
 
 ### Potential Interviews
@@ -14,14 +14,28 @@ My data analysis identified that
 
 2. **Blake Silva**: A 21-year-old diabetes patient from Lodi, California in the Central Valley.  
 * **Phone number**: (209) 993-0561
-* I hope to gain insight on what it has been like to live with diabetes and how he believes his social factors have contributed to his illness and treatment.  This would help give my story a more personal voice.
+* I hope to gain insight on what it has been like to live with diabetes and how he believes his social factors have contributed to the conditions of his illness and treatment.  This would help give my story a more personal voice, as well as first person perspective on what it is like to like to live with diabetes and what can be improved on treatment wise.
+
+### Additional Sources
+
+The following two additional sources can add on to my story to make it more reliable, acccurate, as well as provide possible methods to finding data for analysis.  
+
+1. ["Predicting Risk of Type 2 Diabetes by Using Data on Easy-to-Measure Risk Factors"](https://www.cdc.gov/pcd/issues/2017/16_0244.htm) is a study on using risk factors for Type 2 Diabetes to predict the risk of developing the illness.  This study could provide more information on how and why health predictors and risk factors are an effective tool for gauging the risk of developing diabetes.  In addition, this study may provide data that matches the findings in the data set analyzed, as well as what else can be analyzed, including other socieconomic or social factors.
+2. ["Building Risk Prediction Models for Type 2 Diabetes Using Machine Learning Techniques"](https://www.cdc.gov/pcd/issues/2019/19_0109.htm) is a study on using machine learning techniques as a model for predicting the risk of developing Type 2 Diabetes.  This study could not only provide more data to help confirm findings from this data analysis, as well as other potential data to be analyzed, but also provide a possible method to a standarized predicting model for diabetes.
 
 ## Data Visualizations
 
+*This [bar chart](https://datawrapper.dwcdn.net/mgk5J/1/) shows the six different levels of highest education received and how many patients from the dataset who have diabetes are in each of those categories:*
+
+![bar chart](https://github.com/mcabana26/J124Final/blob/main/mgk5J-diabetes-patients-by-highest-education-level.png)
+
+*This [bar chart](https://datawrapper.dwcdn.net/mgk5J/1/) shows the four different BMI categories and how many patients from the dataset who have diabetes are in each those categories:*
+
+![bar chart](https://github.com/mcabana26/J124Final/blob/main/8YD3V-diabetes-patients-by-body-mass-index-bmi-.png)
 
 
 ## Data Analysis Process
-* Download the ["Diabetes Health Indicators Dataset"](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset) as .csv files, upload to ["Google Drive"](https://github.com/mcabana26/J124Final/blob/main/Diabetes%20Health%20Indicators%20Dataset%20-%20Diabetes%20Health%20Indicators.csv), and open with ["Google Sheets"](https://docs.google.com/spreadsheets/d/1WJPAhUcL1bI6ilt2nX3dlz3LWssY-z3rVvXJrZ6b9TU/edit?usp=sharing)
+* Download the ["Diabetes Health Indicators Dataset"](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset) as .csv files, upload to [Google Drive](https://github.com/mcabana26/J124Final/blob/main/Diabetes%20Health%20Indicators%20Dataset%20-%20Diabetes%20Health%20Indicators.csv), and open with [Google Sheets](https://docs.google.com/spreadsheets/d/1WJPAhUcL1bI6ilt2nX3dlz3LWssY-z3rVvXJrZ6b9TU/edit?usp=sharing)
 * Freeze and bold row one
 * Insert descriptions of variables as notes for each cell in row one **(Note: Refer to these descriptions to answer the question below)**
   
@@ -65,10 +79,10 @@ My data analysis identified that
   ![step 4](https://github.com/mcabana26/J124Final/blob/main/Screen%20Shot%202022-08-07%20at%2011.09.26%20PM.png)
 
   5. Drag "BMI" under "Filter" in the Pivot Table editor, and click the dropdown menu under "Status," click "Filter by condition," then do the following conditions"
-    * "Less than 18.5"
-    * "Is between 18.5 and 24.9"
-    * "Is between 25 and 29.9"
-    * "Greater than or equal to 30"
+   * "Less than 18.5"
+   * "Is between 18.5 and 24.9"
+   * "Is between 25 and 29.9"
+   * "Greater than or equal to 30"
     ![step 5a](https://github.com/mcabana26/J124Final/blob/main/Screen%20Shot%202022-08-07%20at%2011.15.12%20PM.png)
     ![step 5b](https://github.com/mcabana26/J124Final/blob/main/Screen%20Shot%202022-08-07%20at%2011.15.40%20PM.png)
     ![step 5c](https://github.com/mcabana26/J124Final/blob/main/Screen%20Shot%202022-08-07%20at%2011.16.30%20PM.png)
